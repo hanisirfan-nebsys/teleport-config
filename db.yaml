@@ -1,0 +1,11 @@
+kind: db
+version: v3
+metadata:
+  name: db.hostname.dash
+  description: "db.hostname DB"
+  labels:
+    env: prod
+    engine: mysql
+spec:
+  protocol: "mysql"
+  uri: "db.hostname:3306"
